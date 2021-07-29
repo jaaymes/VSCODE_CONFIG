@@ -36,6 +36,11 @@
         "python": "python3 -u",
         "typescript": "npx ts-node --files --transpile-only",
     },
+    //Eslint
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll": true
+      },
     //Bracket Pair Colorizer 2:
     "bracket-pair-colorizer-2.colors": [
         "#8BE9FD",
